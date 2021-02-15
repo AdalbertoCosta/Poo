@@ -9,7 +9,13 @@ public class Exemplo3 {
         if(x <50){
             System.out.println("O valor "+ x + " é menor que 50.");
         }
-        else
-            System.out.println("O valor "+ x + " é maior ou igual a 50.");
+        else if (x == 50){
+            System.out.println("O valor "+ x + " é igual a 50.");
+        }
+        else{
+            System.out.println("O valor "+ x + " é maior que 50.");
+        }
     }
 }
+
+ 
