@@ -15,5 +15,4 @@ public class Exemplo7 {
         }
         System.out.println("media: " + media/15);
     }
-    
 }
